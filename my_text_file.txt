@@ -1,0 +1,3 @@
+This is the first line of my text file.
+This is the second line.
+And this is the third and final line.
