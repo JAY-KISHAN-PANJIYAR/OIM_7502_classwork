@@ -73,7 +73,6 @@ We used `column(...)` and `row(...)` from `bokeh.layouts`:
 - Left: filters
 - Right: map + bar chart
 
-This mirrors what the professor asked for: “demonstration + explanation”.
 
 ---
 
