@@ -3,7 +3,7 @@
 This repository contains the deliverables for the OIM 7502 Spring 2025 midterm project: **Exploring a Third-Party Python Package (Bokeh)**.
 
 ## 1. Project Description
-We use **Bokeh** to build an **interactive, geospatial dashboard** that visualizes earthquakes in and around Nepal between **2015–2025**. The dashboard demonstrates Bokeh's core strengths:
+I use **Bokeh** to build an **interactive, geospatial dashboard** that visualizes earthquakes in and around Nepal between **2015–2025**. The dashboard demonstrates Bokeh's core strengths:
 
 - `ColumnDataSource` as the shared data model
 - **linked widgets** (slider, date range, dropdown)
@@ -36,10 +36,8 @@ This will open the app in your browser at http://localhost:5006/nepal_explorer.
 ## 3. Files
 
 - `nepal_explorer.py` — main Bokeh server app (with required docstring)
-- `tutorial.md` — step-by-step explanation of Bokeh concepts we used
+- `tutorial.md` — step-by-step explanation of Bokeh concepts I used
 - `slides-outline.md` — outline for an in-class 10–12 minute presentation
 - `requirements.txt` — Python packages to install
 - `data/` — (optional) put your CSV/GeoJSON here if you don't want them in root
 
-## 4. GitHub Submission
-Push this whole folder to GitHub and submit the **repo URL** to Canvas, as required in the assignment.

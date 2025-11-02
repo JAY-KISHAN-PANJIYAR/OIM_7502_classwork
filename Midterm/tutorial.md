@@ -84,9 +84,3 @@ We used `column(...)` and `row(...)` from `bokeh.layouts`:
 
 ---
 
-## 6. Mapping to Midterm Rubric
-- **Slide deck** → use `slides-outline.md`
-- **Tutorial** → this file
-- **README with install** → done
-- **Code examples** → in `nepal_explorer.py` (clean, PEP-8-ish)
-- **Data-science relevance** → spatial patterns, frequency, filters

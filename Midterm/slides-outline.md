@@ -130,7 +130,7 @@ def update_data(attr, old, new)
 2. Adjust magnitude, date range, and district
 3. Observe live updates in map and chart
 4. Hover to inspect details
-*(3–4 minutes total demo)*
+
 
 ---
 
