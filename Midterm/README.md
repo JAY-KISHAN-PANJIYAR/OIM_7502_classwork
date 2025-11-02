@@ -39,5 +39,5 @@ This will open the app in your browser at http://localhost:5006/nepal_explorer.
 - `tutorial.md` — step-by-step explanation of Bokeh concepts I used
 - `slides-outline.md` — outline for an in-class 10–12 minute presentation
 - `requirements.txt` — Python packages to install
-- `data/` — (optional) put your CSV/GeoJSON here if you don't want them in root
+
 
