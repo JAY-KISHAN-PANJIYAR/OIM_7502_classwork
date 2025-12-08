@@ -1,0 +1,37 @@
+# Production Requirements for Financial Extraction API
+# These are the exact versions currently working in your environment
+
+# Core FastAPI and web server
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.11.9
+starlette==0.27.0
+
+# Database and External APIs
+supabase==2.0.0
+google-generativeai==0.8.5
+
+# HTTP requests and utilities
+requests==2.31.0
+urllib3==2.5.0
+
+# Environment and configuration
+python-dotenv==1.0.0
+
+# Additional dependencies that might be needed
+httpx==0.24.1
+anyio==3.7.1
+sniffio==1.3.1
+certifi==2025.8.3
+charset-normalizer==3.4.3
+idna==3.10
+
+# Google AI dependencies (automatically included with google-generativeai)
+google-auth==2.40.3
+google-api-core==2.25.1
+googleapis-common-protos==1.70.0
+grpcio==1.75.0
+protobuf==4.25.8
+
+# Standard library modules (no installation needed):
+# - os, tempfile, json, datetime, logging, sys, traceback, typing
