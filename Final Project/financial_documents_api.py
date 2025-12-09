@@ -3,17 +3,21 @@ Financial Documents API - On-Demand Report Scraping and Retrieval
 Provides endpoints to fetch specific annual/quarterly reports with intelligent scraping
 """
 
+# Standard library imports
 import os
 import re
 import time
+from datetime import datetime
+from typing import Dict, List, Optional
+
+# Third-party imports
 import requests
 import google.generativeai as genai
-from datetime import datetime
-from typing import Optional, Dict, List
 from dotenv import load_dotenv
+from fastapi import FastAPI, HTTPException
 from supabase import create_client
 from firecrawl import Firecrawl
-from fastapi import FastAPI, HTTPException
+
 
 load_dotenv()
 
